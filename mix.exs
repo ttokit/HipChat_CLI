@@ -24,6 +24,7 @@ defmodule HipChatCLI.Mixfile do
     [
       {:mix_test_watch, "~> 0.6.0", [only: :dev, runtime: false]},
       {:hipchat_elixir, "~> 0.2.3"},
+      {:poison, "~> 2.2.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
     ]
   end
